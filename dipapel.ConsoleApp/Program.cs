@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace dipapel.ConsoleApp
 {
@@ -6,7 +6,11 @@ namespace dipapel.ConsoleApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var pessoa = new Person();
+            pessoa.Name = "Felipe";
+            
+            
+            Console.WriteLine(pessoa.Greeting());
         }
     }
 }
