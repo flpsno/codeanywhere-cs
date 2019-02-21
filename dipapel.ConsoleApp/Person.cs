@@ -7,6 +7,10 @@ namespace dipapel.ConsoleApp
         
         public string Name { get; set; }
      
+        public Person(string name)
+        {
+            Name = name;
+        }
         
         public string Greeting()
         {
